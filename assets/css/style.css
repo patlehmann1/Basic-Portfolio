@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(237,237,237);
+    background-color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 nav {
@@ -50,6 +51,19 @@ a {
     margin: auto;
     margin-top: 30px;
     background-color: white;
+    padding: 50px auto;
+}
+
+.headshot_pl {
+    margin: 50px;
+    float: left;
+    border-radius: 30px;
+}
+
+p {
+    margin: 50px;
+    overflow-wrap: normal;
+    line-height: 50px;
 }
 
 h1 {
@@ -62,4 +76,26 @@ hr {
     color: #777777,
     margin: auto;
     width: 95%;
+}
+
+.pholder_img {
+    height: 150px;
+    width: 250px;
+}
+
+
+.footer_line {
+    height: 10px;
+    width: 100%;
+    background-color:#4aaaa5;
+}
+
+.footer_main {
+    height: 50px;
+    width: 100%;
+    background-color: #666666;
+}
+
+.portfolio-form {
+    margin: 50px;
 }
